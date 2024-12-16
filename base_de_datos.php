@@ -24,8 +24,8 @@ function obtenerBaseDeDatos()
     */
     // Nota: rellena con tus credenciales
     $nombre_base_de_datos = "artulitro";
-    $usuario = "root";
-    $contraseña = "1234";
+    $usuario = "tutue";
+    $contraseña = "12346789";
     try {
 
         $base_de_datos = new PDO('mysql:host=192.168.1.94;dbname=' . $nombre_base_de_datos, $usuario, $contraseña);
