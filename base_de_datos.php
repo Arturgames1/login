@@ -23,12 +23,12 @@ function obtenerBaseDeDatos()
         Más información: esquema.sql
     */
     // Nota: rellena con tus credenciales
-    $nombre_base_de_datos = "practica";
+    $nombre_base_de_datos = "artulitro";
     $usuario = "root";
-    $contraseña = "";
+    $contraseña = "1234";
     try {
 
-        $base_de_datos = new PDO('mysql:host=localhost;dbname=' . $nombre_base_de_datos, $usuario, $contraseña);
+        $base_de_datos = new PDO('mysql:host=192.168.1.94;dbname=' . $nombre_base_de_datos, $usuario, $contraseña);
         $base_de_datos->query("set names utf8;");
         $base_de_datos->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
         $base_de_datos->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
