@@ -24,7 +24,7 @@ function obtenerBaseDeDatos()
     */
     // Nota: rellena con tus credenciales
     $nombre_base_de_datos = "artulitro";
-    $usuario = "tutue";
+    $usuario = "tuetue";
     $contraseña = "12346789";
     try {
 
